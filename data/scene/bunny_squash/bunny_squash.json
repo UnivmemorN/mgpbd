@@ -1,0 +1,16 @@
+{
+    "tol": 1e-4,
+    "rtol": 1e-2,
+    "delta_t": 10e-3,
+    "arch": "gpu",
+    "end_frame": 100,
+    "mu": 1e9,
+    "use_gravity": 0,
+    "reinit": "squash",
+    
+    "calc_dual":1,
+    "converge_condition":"dual",
+    "maxiter": 20,
+    "solver_type": "AMG",
+    "model_path": "data/model/bunnyBig/bunnyBig.node"
+}

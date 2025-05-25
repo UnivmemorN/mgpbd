@@ -1,0 +1,7 @@
+taichi
+numpy
+scipy
+matplotlib
+tqdm
+pyamg
+meshio
