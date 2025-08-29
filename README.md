@@ -11,7 +11,6 @@ Paper(arix): https://arxiv.org/abs/2505.13390
 
 CAUTION: The code is still not well organized and not clean. If it has bugs(highly possible), please let me know. 
 
-I only tested it on **Windows 10, VS 2022**.
 
 # Pre-requisites
 C++ end
@@ -23,6 +22,21 @@ python end
 pip install -r requirements.txt
 ```
 
+I only tested it on **Windows 10, VS 2022, 4090**.
+
+GPU: Any GPU above 8GB VRAM. 40 series GPU (4090,4080,4070, 4060 etc.) will be better.
+
+
+# Replicating the paper's results
+This is the script to replicate the experiement of Fig. 13 in the paper.
+
+```
+python replicate.py
+```
+
+
+The results are ply sequence: "result/latest/mesh/XXXX.ply". Also, there is a log file in the root directory will be generated(e.g. "residual_squash_bunnyBig_AMG_2025-08-29-15-23-25.txt").
+
 
 # Build
 
@@ -33,12 +47,29 @@ buildcuda.bat
 It will generate `cpp\mgcg_cuda\lib\fastmg.dll`, which is the C++ back-end.
 
 # Run
+Run this python script:
+
 ```
 python engine/soft/soft3d.py -use_json=1 -json_path='data/scene/bunny_squash/bunny_squash.json'
 ```
 
-# Results
-By default, they are in `result/latest`. You can aslo specify `-out_dir=xxx`. The output meshes are in ply format. 
+
+The expected results of bunny squash case (Fig.13 in paper) will generated in `result/latest`.  You can aslo specify the output directory by `-out_dir=xxx`. The output meshes are in ply format: 0001.ply, 0002.ply, etc. 
+
+There is also a log file (e.g. "residual_squash_bunnyBig_AMG_2025-08-29-15-23-25.txt") generated in the root directory, which contains the residual history (Fig.17 in paper).
+
+Change the values in data/scene/bunny_squash/bunny_squash.json to change the parameters. For example, 
+```
+"solver_type": "XPBD",
+"maxiter":10000,
+```
+
+and re-run the script 
+```
+python engine/soft/soft3d.py -use_json=1 -json_path='data/scene/bunny_squash/bunny_squash.json'
+```
+
+This will give you the XPBD results showed in Fig.17.
 
 
 # Specify the parameters
