@@ -8,14 +8,20 @@ This code use a python front-end mixed with C++/CUDA back-end. C++/CUDA code is 
 
 
 Paper(arix): https://arxiv.org/abs/2505.13390
+
 Paper Latex source: [siggraphconferencepapers25-131.zip](https://github.com/user-attachments/files/22174539/siggraphconferencepapers25-131.zip)
-Poster showed in SIGGRAPH: [sig25 poster-v1.pptx](https://github.com/user-attachments/files/22174313/sig25.poster-v1.pptx)
+
+[Poster](https://github.com/user-attachments/files/22174313/sig25.poster-v1.pptx)
 
 Video(SIGGRAPH 2025 presentation, practice version): https://www.bilibili.com/video/BV1z1bezDEtG/
+
 or: https://youtu.be/heScPwJo4AU
-Sildes: https://docs.google.com/presentation/d/1NcZVITDUfJIG9hKNJkx2TqsEaNnO3dNk/edit?usp=share_link&ouid=111038135074814190899&rtpof=true&sd=true
-A more detailed version video (But in Chinese): https://www.bilibili.com/video/BV1P18cziEt5/
-Video (only experiements): https://youtu.be/mjLawWRBRj0
+
+[Sildes](https://docs.google.com/presentation/d/1NcZVITDUfJIG9hKNJkx2TqsEaNnO3dNk/edit?usp=share_link&ouid=111038135074814190899&rtpof=true&sd=true)
+
+[A more detailed version video (But in Chinese)](https://www.bilibili.com/video/BV1P18cziEt5/)
+
+[Video (only experiements)](https://youtu.be/mjLawWRBRj0)
 
 My email: li_cl@foxmail.com
 Feel free to contact me for any questions.
