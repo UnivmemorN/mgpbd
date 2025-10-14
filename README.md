@@ -4,6 +4,21 @@
 https://github.com/user-attachments/assets/389c2a28-cd70-4a2a-bd89-be09b1f1699c
 
 
+https://github.com/user-attachments/assets/cf206a7a-bc3b-431c-a35f-fd8bfbff74d2
+
+(Actually it is a Minotaur, but the Houdini official example misnamed, so do I...😂)
+
+
+https://github.com/user-attachments/assets/d571af63-5051-4c92-a94c-5833ed39f91f
+
+
+
+https://github.com/user-attachments/assets/943d1391-4cb1-453d-95ad-2f6cff2ca60b
+
+(Red: Ours; Blue: XPBD with same time budget (0.1s). The stiffer, the better.)
+
+
+
 The code for SIGGRAPH 2025 paper "**MGPBD: A Multigrid Accelerated Global XPBD Solver**".
 
 It is a Multigrid solver to solve the stalling issue of XPBD under high stiffness and high resolution. 
