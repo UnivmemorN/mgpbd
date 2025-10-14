@@ -1,4 +1,8 @@
-# MGPBD
+# MGPBD: A Multigrid Accelerated Global XPBD Solver
+
+
+[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://chunleili.github.io/mgpbd/)
+   [![Repoducibility](https://www.replicabilitystamp.org/logo/Reproducibility-tiny.png)](http://www.replicabilitystamp.org#https-github-com-chunleili-mgpbd-2025-08-28t08-18-27-422z)
 
 
 https://github.com/user-attachments/assets/389c2a28-cd70-4a2a-bd89-be09b1f1699c
@@ -6,7 +10,7 @@ https://github.com/user-attachments/assets/389c2a28-cd70-4a2a-bd89-be09b1f1699c
 
 https://github.com/user-attachments/assets/cf206a7a-bc3b-431c-a35f-fd8bfbff74d2
 
-(Actually it is a Minotaur, but the Houdini official example misnamed, so do I...😂)
+(Actually it is a Minotaur, but Houdini official example misnamed, so do I...😂)
 
 
 https://github.com/user-attachments/assets/d571af63-5051-4c92-a94c-5833ed39f91f
@@ -26,14 +30,19 @@ It is a Multigrid solver to solve the stalling issue of XPBD under high stiffnes
 This code use a python front-end mixed with C++/CUDA back-end. C++/CUDA code is compiled to a dll with CUDA 12, and called by ctypes in python.
 
 
+[Project Page](https://chunleili.github.io/project-page-mgpbd/)
+
 [Paper(arix)](https://arxiv.org/abs/2505.13390)
 
-[Paper Latex source](https://github.com/user-attachments/files/22174539/siggraphconferencepapers25-131.zip)
+[Latex source](https://github.com/user-attachments/files/22174539/siggraphconferencepapers25-131.zip)
+
+[DOI](https://doi.org/10.1145/3721238.3730720)
 
 [Poster](https://github.com/user-attachments/files/22174313/sig25.poster-v1.pptx)
 
-SIGGRAPH 2025 presentation: recorded video [bilibili](https://www.bilibili.com/video/BV1z1bezDEtG/)
- [youtube](https://youtu.be/heScPwJo4AU) and  [sildes](https://docs.google.com/presentation/d/1NcZVITDUfJIG9hKNJkx2TqsEaNnO3dNk/edit?usp=share_link&ouid=111038135074814190899&rtpof=true&sd=true)
+SIGGRAPH 2025 presentation
+ - recorded video [bilibili](https://www.bilibili.com/video/BV1z1bezDEtG/)  [youtube](https://youtu.be/heScPwJo4AU) 
+ - [sildes](https://docs.google.com/presentation/d/1NcZVITDUfJIG9hKNJkx2TqsEaNnO3dNk/edit?usp=share_link&ouid=111038135074814190899&rtpof=true&sd=true)
 
 [Detailed explaination video in Chinese](https://www.bilibili.com/video/BV1P18cziEt5/)
 
