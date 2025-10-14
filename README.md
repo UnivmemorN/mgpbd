@@ -151,9 +151,12 @@ In some cases, you should manually set CMAKE_CUDA_ARCHITECTURES based on your GP
 Change set(CMAKE_CUDA_ARCHITECTURES 89) in cpp/mgcg_cuda/CMakeLists.txt
 Run cmake from cpp/mgcg_cuda in **cmd**(Powershell does not work for `set(CMAKE_CUDA_ARCHITECTURES 89).`)
 
-# Note
+## Data to reproduce the muscle experiments
+I put them to the [release page](https://github.com/chunleili/mgpbd/releases/tag/data).
+
+
+## Note
 
 For cleanness, I delete most of messy codes in this repo. So some experiments may be missing. I put the old repo here: https://github.com/chunleili/tiPBD/tree/amg. 
-
 
 If you have any questions, please feel free to propose a issue.
