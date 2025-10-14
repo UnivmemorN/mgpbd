@@ -26,23 +26,20 @@ It is a Multigrid solver to solve the stalling issue of XPBD under high stiffnes
 This code use a python front-end mixed with C++/CUDA back-end. C++/CUDA code is compiled to a dll with CUDA 12, and called by ctypes in python.
 
 
-Paper(arix): https://arxiv.org/abs/2505.13390
+[Paper(arix)](https://arxiv.org/abs/2505.13390)
 
-Paper Latex source: [siggraphconferencepapers25-131.zip](https://github.com/user-attachments/files/22174539/siggraphconferencepapers25-131.zip)
+[Paper Latex source](https://github.com/user-attachments/files/22174539/siggraphconferencepapers25-131.zip)
 
 [Poster](https://github.com/user-attachments/files/22174313/sig25.poster-v1.pptx)
 
-Video(SIGGRAPH 2025 presentation, practice version): https://www.bilibili.com/video/BV1z1bezDEtG/
+SIGGRAPH 2025 presentation: recorded video [bilibili](https://www.bilibili.com/video/BV1z1bezDEtG/)
+ [youtube](https://youtu.be/heScPwJo4AU) and  [sildes](https://docs.google.com/presentation/d/1NcZVITDUfJIG9hKNJkx2TqsEaNnO3dNk/edit?usp=share_link&ouid=111038135074814190899&rtpof=true&sd=true)
 
-or: https://youtu.be/heScPwJo4AU
+[Detailed explaination video in Chinese](https://www.bilibili.com/video/BV1P18cziEt5/)
 
-[Sildes](https://docs.google.com/presentation/d/1NcZVITDUfJIG9hKNJkx2TqsEaNnO3dNk/edit?usp=share_link&ouid=111038135074814190899&rtpof=true&sd=true)
+[Video (submitted originally)](https://youtu.be/mjLawWRBRj0)
 
-[A more detailed version video (But in Chinese)](https://www.bilibili.com/video/BV1P18cziEt5/)
-
-[Video (only experiements)](https://youtu.be/mjLawWRBRj0)
-
-My email: li_cl@foxmail.com
+My email: li_cl@foxmail.com 
 Feel free to contact me for any questions.
 
 
