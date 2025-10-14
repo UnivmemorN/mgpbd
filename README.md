@@ -1,7 +1,7 @@
 # MGPBD: A Multigrid Accelerated Global XPBD Solver
 
 
-[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://chunleili.github.io/mgpbd/)
+[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://chunleili.github.io/project-page-mgpbd/)
    [![Repoducibility](https://www.replicabilitystamp.org/logo/Reproducibility-tiny.png)](http://www.replicabilitystamp.org#https-github-com-chunleili-mgpbd-2025-08-28t08-18-27-422z)
 
 
