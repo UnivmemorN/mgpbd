@@ -1,6 +1,10 @@
-# mgpbd
+# MGPBD
 
-The code for SIGGRAPH 2025 paper "MGPBD: A Multigrid Accelerated Global XPBD Solver".
+
+https://github.com/user-attachments/assets/389c2a28-cd70-4a2a-bd89-be09b1f1699c
+
+
+The code for SIGGRAPH 2025 paper "**MGPBD: A Multigrid Accelerated Global XPBD Solver**".
 
 It is a Multigrid solver to solve the stalling issue of XPBD under high stiffness and high resolution. 
 
