@@ -1,0 +1,302 @@
+{
+  "repo_notes": [
+    {
+      "content": ""
+    }
+  ],
+  "pages": [
+    {
+      "title": "概述",
+      "purpose": "介绍MGPBD（多网格加速全局XPBD求解器）系统，解释其目的、主要特性以及与SIGGRAPH 2025论文的关系",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "快速开始",
+      "purpose": "指导用户完成设置、构建和运行第一次模拟",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "项目构建",
+      "purpose": "在Windows上编译C++/CUDA后端的详细说明，包括CMake配置和GPU架构设置",
+      "parent": "快速开始",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "运行模拟",
+      "purpose": "说明如何使用Python接口运行布料和软体模拟，包括参数指定和结果解释",
+      "parent": "快速开始",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "配置",
+      "purpose": "通过JSON文件、命令行参数和求解器参数配置模拟的指南",
+      "parent": "快速开始",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "系统架构",
+      "purpose": "系统架构、主要组件及其相互作用的高层概述",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "FastMG核心",
+      "purpose": "深入探讨FastMG类，这是管理多网格层次结构和求解器分派的主要协调器",
+      "parent": "系统架构",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "求解器层次结构",
+      "purpose": "说明多网格求解器的实现，包括MGPCG、V-cycle和光滑器",
+      "parent": "系统架构",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "MGPCG求解器",
+      "purpose": "多网格预处理共轭梯度求解器实现的详细文档",
+      "parent": "系统架构",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "多网格层级",
+      "purpose": "说明MGLevel数据结构以及多网格层次结构的组织方式",
+      "parent": "系统架构",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "数据结构",
+      "purpose": "核心数据结构的参考文档，包括稀疏矩阵、向量和类型定义",
+      "parent": "系统架构",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "CSR稀疏矩阵",
+      "purpose": "压缩稀疏行矩阵格式及其CUDA实现的文档",
+      "parent": "系统架构",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Vec CUDA向量包装器",
+      "purpose": "说明Vec类用于在GPU上管理动态数组",
+      "parent": "系统架构",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "通用类型定义",
+      "purpose": "通用类型、Eigen集成和整个系统中使用的字段类型的参考",
+      "parent": "系统架构",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "CUDA加速",
+      "purpose": "GPU加速策略、CUDA内核架构和库集成的概述",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "CUDA内核",
+      "purpose": "矩阵填充、光滑和迭代求解器的CUDA内核的详细文档",
+      "parent": "CUDA加速",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "矩阵填充内核",
+      "purpose": "说明用于布料和软体矩阵构造的fill_A_CSR内核",
+      "parent": "CUDA加速",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "迭代求解器内核",
+      "purpose": "加权Jacobi和多色Gauss-Seidel内核实现的文档",
+      "parent": "CUDA加速",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "cuSPARSE集成",
+      "purpose": "说明CusparseWrappers类以及它如何与NVIDIA的cuSPARSE、cuBLAS和cuSOLVER库交互",
+      "parent": "CUDA加速",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "CUDA工具函数",
+      "purpose": "CUDA工具函数、错误检查宏和内存管理助手的参考",
+      "parent": "CUDA加速",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "物理模拟",
+      "purpose": "物理模拟管线的概述以及如何为不同模拟类型构造矩阵",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "FastFill系统",
+      "purpose": "说明用于GPU加速稀疏矩阵构造的FastFill架构",
+      "parent": "物理模拟",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "布料模拟",
+      "purpose": "FastFillCloth组件的文档以及它如何从边基连通性构造系统矩阵",
+      "parent": "物理模拟",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "软体模拟",
+      "purpose": "FastFillSoft组件的文档和四面体网格基矩阵构造",
+      "parent": "物理模拟",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Python接口",
+      "purpose": "使用Python绑定和从Python代码运行实验的指南",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Python绑定",
+      "purpose": "说明pymgpbd模块如何构建以及它如何通过ctypes将C++功能暴露给Python",
+      "parent": "Python接口",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "复现论文结果",
+      "purpose": "使用replicate.py和复现SIGGRAPH 2025论文实验的指南",
+      "parent": "Python接口",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "配置参考",
+      "purpose": "所有JSON文件、命令行参数和构建设置中所有配置选项的完整参考",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "求解器配置",
+      "purpose": "amgconfig.json参数和ConfigManager实现的文档",
+      "parent": "配置参考",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "构建配置",
+      "purpose": "说明CMakeLists.txt选项、CUDA架构设置和编译器标志",
+      "parent": "配置参考",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    }
+  ]
+}
